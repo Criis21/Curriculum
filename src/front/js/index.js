@@ -5,6 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Layout from "./layout";
+import Layout from "./setupTests";
 
 ReactDOM.render(<Layout />, document.querySelector("#app"));

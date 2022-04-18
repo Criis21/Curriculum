@@ -5,10 +5,10 @@ import ScrollToTop from "./component/bodyCv";
 import { Home } from "./pages/Body";
 import { Demo } from "./pages/Header";
 import { Single } from "./pages/Footer";
-import injectContext from "./store/appContext";
+import injectContext from "./App";
 
-import { Navbar } from "./component/headerCv";
-import { Footer } from "./component/footerCv";
+import { Navbar } from "./component/Home";
+import { Footer } from "./component/Proyects";
 
 //create your first component
 const Layout = () => {
